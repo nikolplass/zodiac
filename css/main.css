@@ -1,0 +1,88 @@
+* {
+	margin: 0;
+	font-family: 'Merriweather', serif;
+}
+
+.signs {
+	position: relative;
+	height: 200px;
+	width: 160px;
+	background-repeat: no-repeat;
+	background-size: auto;
+	text-align: center;
+	color: black;
+	font-weight: 700;
+	text-transform: capitalize;
+}
+
+.signs:hover {
+	    cursor: pointer;
+}
+
+.signs p {
+	padding-top: 140px;
+}
+
+#aries {
+	background-image: url("../img/Aries1.jpg");
+}
+#taurus {
+	background-image: url("../img/Taurus1.png");
+}
+#gemini {
+	background-image: url("../img/Gemini1.png");
+}
+#cancer {
+	background-image: url("../img/Cancer1.png");
+}
+#leo {
+	background-image: url("../img/Leo1.png");
+}
+#virgo {
+	background-image: url("../img/Virgo1.png");
+}
+#libra {
+	background-image: url("../img/Libra1.png");
+}
+#scorpio {
+	background-image: url("../img/Scorpio1.png");
+}
+#sagittarius {
+	background-image: url("../img/Sagittarius1.png");
+}
+#capricorn {
+	background-image: url("../img/Capricorn1.png");
+}
+#aquarius {
+	background-image: url("../img/Aquarius1.png");
+}
+#pisces {
+	background-image: url("../img/Pisces1.png");
+}
+
+.modal-title {
+	font-weight: 700;
+}
+
+.modal-content {
+    background-color: rgb(56, 85, 100);
+    background-image: url("../img/ocean.jpg");
+    border: none;
+    border-radius: 0;
+    color: #fff;
+}
+
+.row {
+	margin-left: ;
+	margin-right:;
+}
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+/*  > .col,
+  > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }*/
