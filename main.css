@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+body {
+	background-image: url(../img/starryskynight.jpg);
+	text-align: center;
+	color: azure;
+}
+
+h1 {
+	padding: 2rem 0;
+	color: azure;
+
+}
+
+h2 {
+	text-transform: uppercase;
+}
+
+.input {
+	padding-bottom: 3rem;
+	margin: auto;
+}
+
+.zodiacInfo {
+	width: 50%;
+	margin: auto;
+	color: azure;
+}
+#image {
+	opacity: 0.5;
+	width: 50%;
+	height: 50%;
+}
