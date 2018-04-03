@@ -111,6 +111,14 @@ var signs = [
 }
 ];
 
+// Allows user to hit enter key to see results
+var btn = document.getElementById('userdata');
+btn.addEventListener('keypress', function enterKey(e) {
+	if(e.keyCode == 13) {
+		horoscope();
+	};
+}, false);
+
 var input = document.getElementById("zodiacSign");
 var myH2 = document.getElementById("name");
 var myH5 = document.getElementById("date");
